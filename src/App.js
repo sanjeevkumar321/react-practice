@@ -1,15 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import './pages/Counter';
+import Counter from './pages/Counter';
 
-const data={
-  count: 0,
-}
 
 function App() {
   return (
-    <div className="App">
-    
-    </div>
+   <Counter/>
   );
 }
 
